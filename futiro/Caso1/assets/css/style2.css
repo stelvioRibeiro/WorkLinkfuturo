@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6f7f8;
+}
+
+main{
+     border: 1px solid red;
+     height: 900px;
+     width: 100%;
+     margin: 0 auto;
+}
+
+#parteSuperior{
+    border: 1px solid blue;
+    width: 100%;
+    height: 13.5rem;
+    z-index: 1;
+    background-image: url('../images/images.png');
+    background-size: cover;
+
+}
+
+#caixaDeTexto{
+    border: 1px solid black;
+    width: 35%;
+    height: 400px;
+    margin:  auto;
+    margin-top: 20vh;
+    z-index: 2;
+}
